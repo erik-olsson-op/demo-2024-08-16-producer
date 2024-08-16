@@ -1,0 +1,4 @@
+﻿Windows Service Control Manager
+
+sc.exe create ".NET AWS CaseStudy Omegapoint" binpath="C:\Path\To\App.WindowsService.exe"
+sc.exe description TestService1 "This is the description of the service.."
